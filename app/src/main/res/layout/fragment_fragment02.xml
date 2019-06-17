@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Fragment01">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="652dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical">
+
+        <!--    <TextView
+            android:id="@+id/txt_problema"
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Titulo del problema"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_problema"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="72dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Descripción"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="102dp"
+            android:layout_marginEnd="85dp"
+            android:layout_marginBottom="161dp"
+            android:background="@color/colorAccent"
+            android:text="Enviar tutoria" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/descripcion_text"
+            android:background="@color/colorMora"
+            android:textColor="@color/colorWhite"
+            android:textAlignment="center"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="16dp"
+            android:paddingStart="16dp"
+            android:text="Etiquetas" />
+
+        <EditText
+            android:id="@+id/tituloText"
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_problema"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="16dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:text="Name" />
+
+        <EditText
+            android:id="@+id/descripcion_text"
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView8"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:text="Name" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText4"
+            android:textAlignment="center"
+            android:background="@color/colorMora"
+            android:textColor="@color/colorWhite"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="16dp"
+            android:paddingStart="16dp"
+            android:text="Horarios" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView10"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:text="Name" />
+
+        <Spinner
+            android:id="@+id/editText5"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView12"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="77dp"
+            android:layout_height="53dp"
+            android:layout_alignTop="@+id/editText4"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="-5dp"
+            android:layout_marginEnd="51dp"
+            android:layout_toEndOf="@+id/editText4"
+            android:src="@drawable/ic_search" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="53dp"
+            android:layout_alignTop="@+id/editText5"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="-5dp"
+            android:layout_marginEnd="51dp"
+            android:layout_toEndOf="@+id/editText5"
+            android:src="@drawable/ic_calendar" />-->
+
+        <EditText
+            android:id="@+id/titulotext"
+            android:layout_width="284dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="63dp"
+            android:layout_marginEnd="39dp"
+            android:ems="10"
+            android:hint="ingrese titulo de la descripciòn"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/descripciontext"
+            android:layout_width="278dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titulotext"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="95dp"
+            android:layout_marginEnd="46dp"
+            android:hint="ingrese descricion" />
+
+        <EditText
+            android:id="@+id/fechatext"
+            android:layout_width="288dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titulotext"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="37dp"
+            android:hint="ingrese la fecha" />
+
+        <Spinner
+            android:id="@+id/cursospinner"
+            android:layout_width="259dp"
+            android:layout_height="34dp"
+            android:layout_below="@+id/fechatext"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="94dp"
+            android:layout_marginEnd="66dp" />
+
+        <Spinner
+            android:id="@+id/horariospinner"
+            android:layout_width="251dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/cursospinner"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="67dp" />
+
+        <Button
+            android:id="@+id/postear"
+            android:layout_width="229dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/horariospinner"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="43dp"
+            android:layout_marginEnd="75dp"
+            android:text="postear" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="378dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:background="@color/colorMora"
+            android:textColor="@color/colorWhite"
+            android:text="REGISTRO DE PUBLICACIONES "
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+</FrameLayout>
